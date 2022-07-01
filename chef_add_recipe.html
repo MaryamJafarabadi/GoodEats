@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Recipe</title>
+        <link rel="shortcut icon" type="image/jpg" href="this.jpg"/>
+    </head>
+    <h1><div style ="position:absolute; left:130px; top:200px;color:tan;">Adding recipe</h1>
+    <body>
+        <style>
+            body{
+            background-image: url('chef_background.jpg');
+            }
+        </style>   
+        <div style ="position:absolute; left:750px; top:550px;">
+        <a href="/">
+        <button>Logout</button><br>
+        </a>
+        <a href="/chef_HomePage">
+        <button>Back</button>
+        </a>
+        </div>
+        <form action="/chef_add_recipe" method="post">
+            <lable for = "Title";<div style ="position:absolute; left:520px; top:100px;font-size:20px;color:navajowhite;">Title:</div></lable>
+                <div style ="position:absolute; left:750px; top:100px;font-size:20px;">
+                <input name="Title" type="text" placeholder="title"/>
+                </div>
+                <lable for = "Ingredients";<div style ="position:absolute; left:520px; top:150px;font-size:20px;color:navajowhite;">Ingredients:</div></lable>
+                <div style ="position:absolute; left:750px; top:150px;">
+                <input name="Ingredients" type="text" placeholder="ingrediets divided by comma"/>
+                </div>
+                <lable for = "Vegetarian";<div style ="position:absolute; left:520px; top:200px;font-size:20px;color:navajowhite;">Vegetarian:</div></lable>
+                <div style ="position:absolute; left:750px; top:200px;">
+                <input name="Vegetarian" type="text" placeholder="Yes or No"/>  
+                </div>
+                <lable for = "Minutes_to_ready";<div style ="position:absolute; left:520px; top:250px;font-size:20px;color:navajowhite;">Minutes to ready:</div></lable>
+                <div style ="position:absolute; left:750px; top:250px;">
+                <input name="Minutes_to_ready" type="text" placeholder="minutes"/>
+                </div> 
+                <lable for = "Tags";<div style ="position:absolute; left:520px; top:300px;font-size:20px;color:navajowhite;">Tags:</div></lable>
+                <div style ="position:absolute; left:750px; top:300px;">
+                <input name="Tags" type="text" placeholder="tags divided by comma"/>
+                </div>
+                <lable for = "Image_address";<div style ="position:absolute; left:520px; top:350px;font-size:20px;color:navajowhite;">Image address:</div></lable>
+                <div style ="position:absolute; left:750px; top:350px;">
+                <input name="Image_address" type="text" placeholder="address"/><br>
+                <button type="submit">Add</button><br><br><br>
+
+        </form>
+</html>

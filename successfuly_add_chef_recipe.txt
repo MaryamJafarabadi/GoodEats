@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>My Home Page</title>
+        <link rel="shortcut icon" type="image/jpg" href="this.jpg"/>
+    </head>
+    <h1><div style = "position:absolute; left:550px; top:200px; color:maroon ;">successfuly being added</div></h1>
+    <body>
+
+        <style>
+            body{
+		    background-image: url('chef_background.jpg');
+		    }
+        </style>
+        
+        <a href="/">
+        <div style = "position:absolute; left:600px; top:500px;">
+        <button>Logout</button>
+        </a>
+        </div>
+        <a href="/chef_add_recipe">
+        <div style = "position:absolute; left:700px; top:500px;">
+        <button>Back</button>
+        </a>
+        </div>
+        <p><div style = "position:absolute; left:600px; top:300px;font-size:20px; color:sandybrown ;">the recipe id for this food is:

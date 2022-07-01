@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head> 
+        <title>My Home Page</title>
+        <link rel="shortcut icon" type="image/jpg" href="this.jpg"/>
+    </head>
+    <h1><div style = "position:absolute; left:180px; top:300px; color:purple ;">Rate</div></h1>
+    <body>
+        <style>
+            body{
+		    background-image: url('Ruser_background.jpg');
+		    }
+        </style>
+        <div style = "position:absolute; left:480px; top:200px;">
+            <form action="/rate" method="post">
+                <lable for = "Score";>Score : </lable>
+                <input name="Score" type="text" placeholder="score"/><br/>
+                <input type='hidden' name="Id" value='....'/><br>
+                <button type="submit">Rate</button><br/>
+            </form>
+            <a href="/show_recipe_indetail?Id=...">
+                <button>Back</button><br><br>
+            </a>
+            <a href="/">
+                <button>Logout</button>
+            </a>
+        </div>
+    </body>
+</html>
+            

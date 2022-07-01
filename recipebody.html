@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>My Home Page</title>
+        <link rel="shortcut icon" type="image/jpg" href="this.jpg"/>
+    </head>
+    <h1><div style = "position:absolute; left:180px; top:200px; color:sandybrown ;">My Recipes</div></h1>
+    <body>
+        <style>
+            body{
+		    background-image: url('chef_background.jpg');
+		    }
+        </style>
+        <div style = "position:absolute; left:600px; top:50px;">
+        <table border=1> 
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Vegetarian</th>
+                <th>Time to ready</th>
+                <th>Ingredients</th>
+                <th>Tags</th>
+                <th>Rating</th>
+            </tr>
+        </table>
+    </div>
+    <div style = "position:absolute; left:200px; top:300px;">
+    <form action="/chef_add_recipe" method="get">
+        <button type="submit">Add recipe</button><br>
+    </form>
+    <form action="/chef_remove_recipe" method ="get">
+        <button type="submit">Remove recipe</button><br><br>
+    </form>
+    <form action="/" method="get">
+        <button type="submit">Logout</button>
+    </form>
+    </body>
+</html>

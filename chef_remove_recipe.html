@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Remove Recipe</title>
+        <link rel="shortcut icon" type="image/jpg" href="this.jpg"/>
+    </head>
+    <h1><div style ="position:absolute; left:130px; top:200px;color:tan;">Removing recipe</h1>
+    <body>
+        <style>
+            body{
+            background-image: url('chef_background.jpg');
+            }
+        </style> 
+        <div style ="position:absolute; left:750px; top:500px;font-size:20px;">
+                <a href="/">
+                    <button>Logout</button><br>
+                    </a>
+                    <a href="/chef_HomePage">
+                    <button>Back</button>
+                    </a>
+                </div>
+        <form action="/chef_remove_recipe" method="post">
+        <lable for = "Id";<div style ="position:absolute; left:600px; top:200px;font-size:20px;color:navajowhite;">Recipe Id:</div></lable>
+        <div style ="position:absolute; left:750px; top:200px;font-size:20px;">
+        <input name="Id" type="text" placeholder="id"/>
+        <button type="submit">Remove</button><br><br><br>
+        </form>
+
+    </body>
+    </html>

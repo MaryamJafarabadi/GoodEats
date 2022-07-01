@@ -1,0 +1,14 @@
+        </table>
+    </div>
+    <div style = "position:absolute; left:200px; top:300px;">
+    <a href="/chef_add_recipe">
+    <button>Add Recipe</button>
+    </a>
+    <a href="/chef_remove_recipe">
+    <button>Remove Recipe</button><br><br>
+    </a>
+    <a href="/">
+    <button>Logout</button>
+    </a>
+    </body>
+</html>

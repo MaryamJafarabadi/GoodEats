@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head> 
+        <title>My Home Page</title>
+        <link rel="shortcut icon" type="image/jpg" href="this.jpg"/>
+    </head>
+    <h1><div style = "position:absolute; left:200px; top:200px; color:rebeccapurple ;">successfuly being added</div></h1>
+    <body>
+        <style>
+            body{
+		    background-image: url('Ruser_background.jpg');
+		    }
+        </style>
+        <a href="/">
+        <div style = "position:absolute; left:300px; top:500px;">
+            <button>Logout</button><br><br>
+        </a>
+        <a href="/add_shelf">
+            <button>Back</button>
+        </a>
+        </div>
+        <p><div style = "position:absolute; left:200px; top:300px;font-size:20px; color:teal ;">the shelf id for this new one is:

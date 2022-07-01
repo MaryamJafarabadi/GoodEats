@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head> 
+        <title>My Home Page</title>
+        <link rel="shortcut icon" type="image/jpg" href="this.jpg"/>
+    </head>
+    <h1><div style = "position:absolute; left:180px; top:200px; color:purple ;">Add Shelf</div></h1>
+    <body>
+        <style>
+            body{
+		    background-image: url('Ruser_background.jpg');
+		    }
+        </style>  
+        <div style ="position:absolute; left:200px; top:300px;">
+        <a href="/">
+        <button>Logout</button><br><br>
+        </a>
+        <a href="/show_shelves">
+        <button>Back</button>
+        </a>
+        </div>
+        <form action="/add_shelf" method="post">
+            <lable for = "Name";<div style ="position:absolute; left:500px; top:300px;font-size:20px;color:violet">Name : </div></lable>
+                <div style ="position:absolute; left:600px; top:300px;font-size:20px;">
+                <input name="Name" type="text" placeholder="name"/><br><br>
+                <button type="submit">Add</button>
+                </div>
+        </form>
+</html>

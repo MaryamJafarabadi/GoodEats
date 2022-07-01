@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head> 
+        <title>My Home Page</title>
+        <link rel="shortcut icon" type="image/jpg" href="this.jpg"/>
+    </head>
+    <h1><div style = "position:absolute; left:180px; top:200px; color:purple ;">Add Recipe</div></h1>
+    <body>
+        <style>
+            body{
+		    background-image: url('Ruser_background.jpg');
+		    }
+        </style>
+        <form action="/add_recipe" method="post">
+            <lable for = "Recipe_Id";<div style ="position:absolute; left:420px; top:200px;font-size:20px;color:slateblue;">Recipe ID :</div></lable>
+            <div style ="position:absolute; left:520px; top:200px;">
+            <input name="Recipe_Id" type="text" placeholder="id"/>
+            <input type='hidden' name='Shelf_Id' value='2'/><br><br>
+            <button type="submit">Add</button></div>
+        </form>
+        <div style ="position:absolute; left:520px; top:400px;">
+        <a href="/">
+            <button>Logout</button><br><br>
+        </a>
+        <a href="/show_shelf_indetail?Id=2">
+            <button>Back</button>
+        </a>
+    </body>
+    </html>
+

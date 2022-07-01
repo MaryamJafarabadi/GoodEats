@@ -1,0 +1,17 @@
+</div>
+<div style = "position:absolute; left:180px; top:300px;">
+<a href="/rate">
+    <button>Rate</button><br><br>
+</a>
+<a href="/change_rating">
+    <button>Change Rating</button><br><br>
+</a>
+<a href="/Ruser_HomePage">
+    <button>Back</button>
+</a>
+<a href="/">
+    <button>Logout</button>
+</a>
+</div>
+</body>
+</html>

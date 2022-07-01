@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head> 
+        <title>My Home Page</title>
+        <link rel="shortcut icon" type="image/jpg" href="this.jpg"/>
+    </head>
+    <h1><div style = "position:absolute; left:180px; top:200px; color:purple ;">Shelf's Detail</div></h1>
+    <body>
+        <style>
+            body{
+		    background-image: url('Ruser_background.jpg');
+		    }
+        </style>
+        <div style = "position:absolute; left:600px; top:50px;">
+            <table border=1> 
+                <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Vegetarian</th>
+                <th>Time to ready</th>
+                </tr>
